@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		10195E7962E28CFCDB86DE12 /* Pods-HYDateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDateKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HYDateKit_Example/Pods-HYDateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2D6B965473492AC5BA99A682 /* HYDateKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYDateKit.podspec; path = ../HYDateKit.podspec; sourceTree = "<group>"; };
+		2D6B965473492AC5BA99A682 /* HYDateKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYDateKit.podspec; path = ../HYDateKit.podspec; sourceTree = "<group>"; };
 		41EDDD3F42C81E26A01A1D84 /* Pods_HYDateKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYDateKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F4D4B6DE95D3CA96B14416 /* Pods-HYDateKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDateKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HYDateKit_Tests/Pods-HYDateKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E06DEEBEE3EB091206306B5 /* Pods-HYDateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDateKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HYDateKit_Example/Pods-HYDateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		737747764CC1654BED935D50 /* Pods_HYDateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYDateKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B10AB68FE7B8CE8BC0614166 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B10AB68FE7B8CE8BC0614166 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C58D0A8FAAF6094DCAF0671A /* Pods-HYDateKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDateKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HYDateKit_Tests/Pods-HYDateKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB65DD723B309DE86911C2A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB65DD723B309DE86911C2A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				C58D0A8FAAF6094DCAF0671A /* Pods-HYDateKit_Tests.debug.xcconfig */,
 				49F4D4B6DE95D3CA96B14416 /* Pods-HYDateKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

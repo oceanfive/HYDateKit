@@ -1,0 +1,6 @@
+framework module HYDateKit {
+  umbrella header "HYDateKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

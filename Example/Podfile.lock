@@ -1,0 +1,16 @@
+PODS:
+  - HYDateKit (0.0.1)
+
+DEPENDENCIES:
+  - HYDateKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYDateKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYDateKit: 51c980c4ed1a459eddef1c131b7437418c8438e9
+
+PODFILE CHECKSUM: a23931c1dc586f09048c67535fde4b722d81e1c8
+
+COCOAPODS: 1.6.1
