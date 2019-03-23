@@ -1,5 +1,5 @@
 PODS:
-  - HYDateKit (0.0.2)
+  - HYDateKit (0.0.3)
 
 DEPENDENCIES:
   - HYDateKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYDateKit: 5118d34b0e2655b694a446f7a5bef8be9f827bcc
+  HYDateKit: 1d65c838fddb4be419eccd102b7be3e33070b709
 
 PODFILE CHECKSUM: a23931c1dc586f09048c67535fde4b722d81e1c8
 
