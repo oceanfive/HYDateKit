@@ -37,6 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
 /** date 所在的 "月" 有多少 "秒" */
 - (NSInteger)hy_secondsInMonthForDate:(NSDate *)date;
 
+/** date 所在的 "月" 的第一天 */
+- (NSDate *)hy_firstDayDateInMonthForDate:(NSDate *)date;
+/** date 所在的 "月" 的最后一天 */
+- (NSDate *)hy_lastDayDateInMonthForDate:(NSDate *)date;
 
 @end
 

@@ -1,6 +1,6 @@
 {
   "name": "HYDateKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "HYDateKit",
   "description": "iOS的日期工具库",
   "homepage": "https://github.com/oceanfive/HYDateKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/oceanfive/HYDateKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "7.0"

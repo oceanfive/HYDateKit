@@ -116,6 +116,12 @@
     
     NSDate *tmp = [calendar startOfDayForDate:date];
     NSLog(@"%@", tmp);
+    
+    NSLog(@"-----");
+    NSDate *firstDate = [calendar hy_firstDayDateInMonthForDate:date];
+    NSDate *lastDate = [calendar hy_lastDayDateInMonthForDate:date];
+    NSLog(@"%@", firstDate);
+    NSLog(@"%@", lastDate);
 }
 
 

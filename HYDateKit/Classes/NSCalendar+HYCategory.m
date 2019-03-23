@@ -61,4 +61,18 @@
     // 注: 使用 rangeOfUnit 方法存在异常，返回 60
 }
 
+- (NSDate *)hy_firstDayDateInMonthForDate:(NSDate *)date {
+    NSCalendarUnit units = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
+    NSDateComponents *components = [self components:units fromDate:date];
+    components.day = 1;
+    return [self dateFromComponents:components];
+}
+
+- (NSDate *)hy_lastDayDateInMonthForDate:(NSDate *)date {
+    NSCalendarUnit units = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
+    NSDateComponents *components = [self components:units fromDate:date];
+    components.day = [self hy_daysInMonthForDate:date];
+    return [self dateFromComponents:components];
+}
+
 @end
